@@ -1,0 +1,39 @@
+:root {
+    --color-white: #F7F7F7;
+
+}
+
+
+
+body {
+    background-color: var(--color-white);
+    font-family: Arial, sans-serif;
+}
+
+.conteiner {
+    border-radius: 10px;
+    margin: 0px;
+    padding: 50px;
+}
+
+.center-div-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.edit-image-logo {
+    width: 40%; /* Reduz a largura da imagem em 50% */
+    height: auto; /* Mantém a proporção da imagem */
+
+}
+
+li {
+    list-style: none; /* Remove a bolinha no inicio da lista */
+}
+
+#BtnNavegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    ;
+}
